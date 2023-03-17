@@ -10,7 +10,7 @@ Link to the dataset: https://www.kaggle.com/ashishjangra27/face-mask-12k-images-
 
 Check the presentation "IITISOC - Bhore Parth Shirish.pptx" for more details. <br/>
 
-This TensorFlow face mask detection model has been deployed using a Podman Docker image. To run the Podman image on your Windows local machine, follow the steps below:
+This TensorFlow face mask detection model has been deployed using a Podman Docker image and Flask API. To run the Podman image on your Windows local machine, follow the steps below:
 
 1. Install Podman on your local machine. Download and install the [MSI file](https://github.com/containers/podman/releases/download/v4.4.0/podman-v4.4.0.msi) from the 'Assets' section of the latest version of Podman. 
 2. After you have installed Podman, create a new virtual machine that runs the Podman container engine by entering this command in your Windows PowerShell: `podman machine init`.
